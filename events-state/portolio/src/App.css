@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+.btn-group {
+  margin-bottom: 30px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.btn-group {
+  padding-top: 50px;
+}
+
+.btn {
+  margin-right: 20px;
+  border: none;
+  outline: none;
+}

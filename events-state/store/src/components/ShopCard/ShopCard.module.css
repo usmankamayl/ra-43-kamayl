@@ -1,0 +1,22 @@
+.shopCard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 250px;
+    height: 250px;
+}
+
+.cardFooter {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
