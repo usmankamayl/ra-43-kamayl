@@ -8,11 +8,8 @@ export const Record = () => {
   ]);
   const handleAdd = (step) => setSteps((prevSteps) => {
     const newSteps = [...prevSteps];
-    if (newSteps.length === 0) {
-      newSteps.push(step);
-    }
 
-    if (newSteps.length > 0) {
+    if (newSteps.length >= 0) {
       if (newSteps.some(s => s.date === step.date)) {
         for (let i = 0; i < newSteps.length; i++) {
           if (newSteps[i].date === step.date) {
