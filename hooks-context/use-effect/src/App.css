@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+   padding-top: 100px;
+  padding-left: 100px;
+}
+
+.list {
+  list-style: none;
+}
+
+.list-item {
+  /*display: flex;*/
+  /*gap: 20px;*/
+  padding: 10px 0 10px 15px;
+  width: 250px;
+  border: 1px solid darkgrey;
+  color: #423F3E;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color ease .3s;
+}
+
+.list-item:hover {
+  background-color: #0F7FFA;
+  color: #DBFAFF;
+}
+
+.wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+details-wrapper {
+  position: relative;
+}
+
+.details {
+  padding-top: 16px;
+}
+
+.load {
+  position: absolute;
+  top: -40px;
+  left: 40%;
+  font-size: 18px;
+}

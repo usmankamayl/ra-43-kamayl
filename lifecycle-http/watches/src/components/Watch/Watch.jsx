@@ -17,9 +17,6 @@ export const Watch = ({clockInfo, children}) => {
     if (seconds < 10) seconds = "0" + seconds;
 
 
-    // useEffect(() => {
-    //   console.log('вмонтирован')
-    // }, [date]);
     useEffect(() => {
       console.log('unmount')
     return clearTimeout(clock);
