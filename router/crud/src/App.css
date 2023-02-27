@@ -1,0 +1,166 @@
+body {
+  padding: 25px;
+  position: relative;
+  //height: 100vh;
+  background-color: #E8EAED;
+}
+
+button {
+  display: block;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post {
+  position: relative;
+  width: 600px;
+  margin: 50px auto 0;
+  border: 4px solid #5D5E5F;
+}
+
+.post-top {
+  border-bottom: 1px solid #F0F0F0;
+}
+
+.btn {
+  padding-left: 20px;
+  color: #657DAB;
+}
+
+.btn-item .public {
+  color: #797D81;
+}
+
+.btn-icon {
+  margin-right: 10px;
+}
+
+
+.btn-list {
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-item {
+  display: flex;
+  align-items: center;
+}
+
+.btn-item div {
+  background-color: #E5E5E5;
+  width: 2px;
+  height: 20px;
+}
+
+form {
+  padding-bottom: 7px;
+  background-color: #F5F6F7;
+}
+
+textarea {
+  width:100%;
+  resize: vertical;
+  padding:15px;
+  outline:none;
+  border: none;
+  box-shadow:4px 4px 10px rgba(0,0,0,0.06);
+  height:150px;
+  margin-bottom: 7px;
+}
+
+.btn-submit {
+  color: #EEF1F7;
+  margin-left: 440px;
+}
+
+.post-item {
+  position: relative;
+  margin: 0 auto 10px;
+  width: 600px;
+  border: 2px solid #5D5E5F;
+  background-color: #fff;
+}
+
+.delete {
+  position: absolute;
+  top: 5px;
+  right: 8px
+}
+
+.post-item__right {
+  display: flex;
+  justify-content: start;
+  gap: 15px;
+}
+
+.post-content {
+  padding: 20px;
+  width: 600px;
+  margin-top: 25px;
+  color: #9D9372;
+  font-size: 24px;
+  border-bottom: 1px solid #9D9372;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.add {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  height: 60px;
+  padding: 20px;
+  margin: 0 auto 25px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.add-btn {
+  padding: 0 10px;
+  display: block;
+  width: 130px;
+  background-color: #4469AE;
+  color: #E5E5E5;
+  margin-left: auto;
+  height: 30px;
+  line-height: 28px;
+  transition: background-color ease-in-out .3s;
+}
+
+.add-btn:hover {
+  background-color: #EEF1F7;
+}
+
+
+.btn-wrapper {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+
+}
+
+.btn-change {
+  color: #EEF1F7;
+}
+.btn-delete {
+  color: #EEF1F7;
+}

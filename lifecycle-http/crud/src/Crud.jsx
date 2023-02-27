@@ -8,17 +8,7 @@ export const Crud = () => {
   const apiService = new ApiService();
   const [notes, setNotes] = useState([]);
 
-  const loadNotes = () => {
-    apiService.getNotes().then(res => {
-      setNotes(prevNotes => {
-        let newNotes = [...prevNotes];
-        newNotes.length = 0;
-        newNotes = [...res];
-        console.log('loadNotes');
-        return newNotes;
-      })
-    })
-  }
+  const loadNotes = () => apiService.getNotes().then(res => setNotes([...res]));
 
   useEffect(() => {
     loadNotes();
